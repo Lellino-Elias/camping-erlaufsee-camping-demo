@@ -1,70 +1,63 @@
 import type { CampsiteConfig } from "../types";
 
-/**
- * Camping am Erlaufsee — honest, source-grounded config.
- * Quelle: camping-erlaufsee.at (raw/digest). Bildlage knapp: nur wenige
- * nachweislich platzeigene Fotos ≥ 800 px → bewusst schlanker Aufbau
- * (Hero + 3 Pillars + Breather). Camping-Grid & Galerie blenden sich ehrlich aus.
- * Preise: Quelle nennt KEINE → Richtpreise (pricesArePlaceholder), offen disclosed.
- */
 const IMG = "/campsites/camping-erlaufsee";
 
 const campingErlaufsee: CampsiteConfig = {
   name: "Camping am Erlaufsee",
   shortName: "Erlaufsee",
   slug: "camping-erlaufsee",
-  ort: "St. Sebastian",
+  ort: "St. Sebastian bei Mariazell",
   region: "Steiermark",
-  heroVariant: "center",
   brandKind: "Camping",
   see: "Erlaufsee",
   regionLong: "Mariazellerland · Steiermark · Österreich",
 
-  claim: "Bergluft, See und Stille — 100 Meter vom Erlaufsee",
-  claimEmphasis: "100 Meter vom Erlaufsee",
-  emailDetail: "eure ruhige Lage nur 100 Meter vom Erlaufsee",
-  intro:
-    "Ein kleiner, ruhiger Platz, eingebettet in die Natur — nur 100 Meter vom Erlaufsee. Frische Gebirgsluft, belebendes Klima und das Alpenpanorama rund um Mariazell: hier kommst du zum Ausspannen und Auftanken.",
+  heroVariant: "center",
 
-  logo: { src: `${IMG}/logo.webp`, alt: "Camping am Erlaufsee – Logo" },
+  claim: "Wald, Bergluft und der Erlaufsee, 100 Meter weiter",
+  claimEmphasis: "der Erlaufsee",
+  emailDetail: "die frische Gebirgsluft direkt am Erlaufsee",
+  intro:
+    "Ein kleiner, ruhiger Campingplatz, eingebettet in den Wald und nur 100 Meter vom Erlaufsee entfernt — mit frischer Gebirgsluft, klarem Bergsee und dem Wallfahrtsort Mariazell gleich um die Ecke.",
+
+  logo: { src: `${IMG}/gallery-eb86a2dc71.webp`, alt: "Camping am Erlaufsee Logo" },
 
   statement: {
-    text: "Vom Stellplatz zum Erlaufsee sind es hundert Meter — und ringsum nichts als Berge, Wald und frische Luft.",
-    emphasis: "hundert Meter",
+    text: "Hundert Meter trennen dein Vorzelt vom Ufer des Erlaufsees — den Rest macht die Bergluft.",
+    emphasis: "Hundert Meter",
   },
 
   pillars: [
     {
-      title: "Baden am Erlaufsee",
-      text: "Der Erlaufsee liegt 100 Meter vom Platz — Schwimmen, Fischen, Tauchen oder Surfen, und für Campinggäste gibt es am See einen Bootsverleih.",
-      image: { src: `${IMG}/activity-ccaba3fbdb.webp`, alt: "Tretboot auf dem Erlaufsee vor dem Bergpanorama" },
+      title: "Der Erlaufsee, 100 Meter weiter",
+      text: "Baden, Schwimmen, Fischen, Tauchen oder Surfen — und am Ufer wartet der Bootsverleih für eine Runde übers Wasser.",
+      image: { src: `${IMG}/activity-ccaba3fbdb.webp`, alt: "Tretboot-Fahrt auf dem Erlaufsee" },
     },
     {
-      title: "Kleiner, ruhiger Naturplatz",
-      text: "Typisch für den überschaubaren Platz sind die besonders frische Gebirgsluft, das belebende Klima und das malerische Alpenpanorama ringsum.",
-      image: { src: `${IMG}/hero-f97a32ef57.webp`, alt: "Stellplätze mit Wohnwagen und Bus unter hohen Bäumen am Camping Erlaufsee" },
+      title: "Stille unter alten Bäumen",
+      text: "Ein kleiner, ruhiger Platz, eingebettet in den Wald — viel Schatten, viel Raum und Zeit zum Auftanken.",
+      image: { src: `${IMG}/hero-f97a32ef57.webp`, alt: "Stellplätze unter hohen Bäumen am Camping Erlaufsee" },
     },
     {
-      title: "Alles im Zentralgebäude",
-      text: "Warmwasserduschen, WC, Waschräume, Aufenthaltsraum, Stromanschlüsse, Kühlschrank und Waschmaschine — Tischtennis gibt es zum Verleih.",
-      image: { src: `${IMG}/gallery-80ed264ba6.webp`, alt: "Zentralgebäude mit Büro am Campingplatz Erlaufsee" },
+      title: "Frische Gebirgsluft",
+      text: "Eingebettet in die Natur rund um Mariazell — belebendes Klima, Bergwiesen und das Alpenpanorama vor der Tür.",
+      image: { src: `${IMG}/hero-061b4410cb.webp`, alt: "Blühende Bergwiese rund um den Erlaufsee" },
     },
   ],
 
   usps: [
-    "100 Meter zum Erlaufsee",
-    "Frische Gebirgsluft",
-    "Bootsverleih am See",
+    "100 m zum Erlaufsee",
     "Warmwasserduschen",
-    "Tischtennis zum Verleih",
-    "Wandern & Mountainbiken",
+    "Bootsverleih am See",
+    "Strom am Stellplatz",
+    "Frische Gebirgsluft",
   ],
 
   trust: {
-    heading: "Klein, ruhig und mitten in der Bergwelt",
-    headingEmphasis: "mitten in der Bergwelt",
+    heading: "Warum es am Erlaufsee so ruhig bleibt",
+    headingEmphasis: "so ruhig",
     intro:
-      "Camping am Erlaufsee ist klein und ruhig geblieben: nur 100 Meter zum See, frische Gebirgsluft und Mariazell mit seinen Wander-, Bike- und Klettertouren direkt vor der Tür.",
+      "Ein überschaubarer Platz für alle, die echte Ruhe suchen: frische Bergluft, klares Wasser und kurze Wege. Vom Stellplatz zum See sind es nur 100 Meter, in den Markt Mariazell wenige Minuten.",
   },
 
   awards: [],
@@ -72,43 +65,52 @@ const campingErlaufsee: CampsiteConfig = {
   saison: { von: "Mai", bis: "September" },
 
   hero: {
-    aerial: { src: `${IMG}/hero-0e8340f6d4.webp`, alt: "Der Erlaufsee mit dem Alpenpanorama des Mariazellerlandes" },
-  },
-
-  breather: {
-    image: { src: `${IMG}/hero-061b4410cb.webp`, alt: "Sommerliche Bergwiese rund um den Erlaufsee" },
-    line: "Frische Gebirgsluft, so weit das Auge reicht.",
+    aerial: { src: `${IMG}/hero-0e8340f6d4.webp`, alt: "Der Erlaufsee mit Alpenpanorama bei Mariazell" },
   },
 
   camping: {
-    heading: "Camping am Erlaufsee",
-    intro: "Ein kleiner Platz mit allem, was ein entspannter Campingtag braucht.",
-    features: [],
-  },
-
-  anreise: {
-    heading: "So erreichst du den Erlaufsee",
-    modes: [
+    heading: "Der Platz und sein Zentralgebäude",
+    intro:
+      "Ein kleiner Naturcampingplatz mit allem Nötigen: ebene Stellplätze mit Strom und ein Zentralgebäude mit Warmwasserduschen, Waschräumen, Aufenthaltsraum, Kühlschrank und Waschmaschine.",
+    features: [
       {
-        title: "Mit dem Auto",
-        text: "Über die Mariazeller Straße (B20) bis Mariazell, dann der Beschilderung Richtung St. Sebastian und Erlaufsee zur Erlaufseestraße 69 folgen.",
+        title: "Das Zentralgebäude",
+        text: "Warmwasserduschen, getrennte Waschräume für Damen und Herren, WC-Anlagen, ein Aufenthaltsraum, Kühlschrank, Waschmaschine und Tischtennis — alles zentral am Platz.",
+        image: { src: `${IMG}/gallery-80ed264ba6.webp`, alt: "Zentralgebäude mit Büro am Camping Erlaufsee" },
       },
       {
-        title: "Mit der Bahn",
-        text: "Mit der Mariazellerbahn bis Mariazell — vom Ort sind es nur wenige Minuten hinaus zum Erlaufsee.",
-      },
-      {
-        title: "Öffnungszeiten",
-        text: "Geöffnet von Anfang Mai bis Ende September. Check-in 15–18 Uhr, Check-out 8–11 Uhr.",
+        title: "Stellplätze im Grünen",
+        text: "Ebene, schattige Plätze unter alten Bäumen, mit Stromanschluss — für Wohnwagen, Wohnmobil und Zelt.",
+        image: { src: `${IMG}/gallery-3fc153ac24.webp`, alt: "Schattige Stellplätze unter Bäumen am Camping Erlaufsee" },
       },
     ],
   },
 
+  anreise: {
+    heading: "Dein Weg an den Erlaufsee",
+    modes: [
+      {
+        title: "Mit dem Auto",
+        text: "Über die Mariazeller Straße (B20) nach Mariazell, dann Richtung St. Sebastian zum Erlaufsee — Erlaufseestraße 69, ausgeschildert.",
+      },
+      {
+        title: "Mit der Bahn",
+        text: "Mit der Mariazellerbahn von St. Pölten nach Mariazell, von dort sind es wenige Minuten an den Erlaufsee.",
+      },
+      {
+        title: "Check-in & Saison",
+        text: "Check-in 15–18 Uhr, Check-out 8–11 Uhr. Geöffnet von Anfang Mai bis Ende September.",
+      },
+    ],
+  },
+
+  // galerie: ausgelassen — nach hero/pillars/camping bleiben keine 4 ungenutzten,
+  // provenienz-sicheren Fotos übrig (jedes Bild nur EINMAL). Sektion blendet sich ehrlich aus.
   galerie: {
-    heading: "Eindrücke vom Erlaufsee",
-    headingEmphasis: "Erlaufsee",
-    intro: "Ein paar Aufnahmen vom Platz und vom See.",
-    tag: "Mai bis September",
+    heading: "",
+    headingEmphasis: "",
+    intro: "",
+    tag: "",
     images: [],
   },
 
@@ -116,17 +118,17 @@ const campingErlaufsee: CampsiteConfig = {
     heading: "Sichere dir deinen Platz am Erlaufsee",
     headingEmphasis: "am Erlaufsee",
     intro:
-      "Wähle Zeitraum und Personen — deine Anfrage geht direkt an den Campingwart, er meldet sich persönlich mit deiner Verfügbarkeit.",
+      "Wähle Zeitraum und Personen — die Verwaltung meldet sich persönlich mit deiner Verfügbarkeit. Geöffnet von Mai bis September.",
     pricesArePlaceholder: true,
     priceNote:
-      "Richtpreise — auf der Website von Camping am Erlaufsee sind keine Preise angegeben, bitte bei der Buchung bestätigen.",
+      "Richtpreise — auf der Website sind keine Preise angegeben (bitte bestätigen) · Basis 2 Personen · zzgl. Ortstaxe",
     highlight: {
-      title: "100 Meter zum See",
-      text: "Vom Stellplatz sind es nur hundert Meter bis ans Ufer des Erlaufsees.",
+      title: "100 m zum Wasser",
+      text: "Vom Stellplatz sind es nur hundert Meter bis zum Ufer des Erlaufsees.",
     },
     categories: [
-      { id: "stellplatz", label: "Stellplatz (Wohnwagen/Wohnmobil)", perNight: 34, perExtraGuest: 8 },
-      { id: "zelt", label: "Zeltplatz", perNight: 26, perExtraGuest: 8 },
+      { id: "stellplatz", label: "Stellplatz", perNight: 32, perExtraGuest: 8 },
+      { id: "zelt", label: "Zeltplatz", perNight: 24, perExtraGuest: 8 },
     ],
   },
 
@@ -141,9 +143,9 @@ const campingErlaufsee: CampsiteConfig = {
   languages: ["DE"],
 
   nav: [
-    { label: "Erlaufsee", href: "#top" },
-    { label: "Lage & Anreise", href: "#anreise" },
-    { label: "Preise & Anfrage", href: "#booking" },
+    { label: "Der Platz", href: "#camping" },
+    { label: "Anreise", href: "#anreise" },
+    { label: "Preise", href: "#booking" },
   ],
 };
 

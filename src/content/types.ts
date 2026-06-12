@@ -71,7 +71,7 @@ export interface CampsiteConfig {
   claimEmphasis: string; // Wort/Phrase im Headline, das hervorgehoben (serif italic) wird
   intro: string;
   /** Cold-Mail-Personalisierung (nicht im UI gerendert): Nominalphrase für den fixen
-   *  Mail-1-Satz "… hängen geblieben: {emailDetail} ist mir sofort aufgefallen."
+   *  Mail-1-Satz "… hängen geblieben: {emailDetail} gefällt mir richtig gut."
    *  Regeln siehe pipeline/BUILD-CAGED.md. */
   emailDetail?: string;
   /** Logo des Platzes (Footer). Fehlt → Wortmarke statt Bild. */
