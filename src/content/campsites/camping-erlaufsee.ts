@@ -74,14 +74,14 @@ const campingErlaufsee: CampsiteConfig = {
       "Ein kleiner Naturcampingplatz mit allem Nötigen: ebene Stellplätze mit Strom und ein Zentralgebäude mit Warmwasserduschen, Waschräumen, Aufenthaltsraum, Kühlschrank und Waschmaschine.",
     features: [
       {
-        title: "Das Zentralgebäude",
-        text: "Warmwasserduschen, getrennte Waschräume für Damen und Herren, WC-Anlagen, ein Aufenthaltsraum, Kühlschrank, Waschmaschine und Tischtennis — alles zentral am Platz.",
-        image: { src: `${IMG}/gallery-80ed264ba6.webp`, alt: "Zentralgebäude mit Büro am Camping Erlaufsee" },
-      },
-      {
         title: "Stellplätze im Grünen",
         text: "Ebene, schattige Plätze unter alten Bäumen, mit Stromanschluss — für Wohnwagen, Wohnmobil und Zelt.",
         image: { src: `${IMG}/gallery-3fc153ac24.webp`, alt: "Schattige Stellplätze unter Bäumen am Camping Erlaufsee" },
+      },
+      {
+        title: "Das Zentralgebäude",
+        text: "Warmwasserduschen, getrennte Waschräume für Damen und Herren, WC-Anlagen, ein Aufenthaltsraum, Kühlschrank, Waschmaschine und Tischtennis — alles zentral am Platz.",
+        image: { src: `${IMG}/gallery-80ed264ba6.webp`, alt: "Zentralgebäude mit Büro am Camping Erlaufsee" },
       },
     ],
   },
