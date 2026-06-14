@@ -80,7 +80,7 @@ const campingErlaufsee: CampsiteConfig = {
       },
       {
         title: "Das Zentralgebäude",
-        text: "Warmwasserduschen, getrennte Waschräume für Damen und Herren, WC-Anlagen, ein Aufenthaltsraum, Kühlschrank, Waschmaschine und Tischtennis — alles zentral am Platz.",
+        text: "Warmwasserduschen, Waschräume, WC, Aufenthaltsraum, Kühlschrank, Waschmaschine und Tischtennis — alles zentral am Platz.",
         image: { src: `${IMG}/gallery-80ed264ba6.webp`, alt: "Zentralgebäude mit Büro am Camping Erlaufsee" },
       },
     ],
